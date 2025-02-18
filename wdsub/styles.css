@@ -22,3 +22,35 @@ body {
 h2.heading {
   font-size: 200%;
 }
+
+.bordered {
+  border-style: solid;
+  border-color: #d3dbec;
+  border-width: 3px;
+  padding: 7px;
+  border-radius: 15px;
+  margin: 9px;
+  background-color: #d3dbec;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #888;
+}
+
+a:hover, a:visited: {
+  color: #d1bec5;
+}
+
+hr {
+  height: 3px;
+  border: 0px;
+  background-color: d1bec5;
+}
+
+#footer {
+  font-size: 150%;
+  text-align: center;
+}
