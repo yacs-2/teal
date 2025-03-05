@@ -1,0 +1,16 @@
+#preheader {
+  font-family: kanit;
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+}
+
+.navlink {
+  color: black
+}
+
+.article {
+  font-family: Montserrat;
+}
