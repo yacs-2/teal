@@ -49,6 +49,10 @@ a {
   color: #888;
 }
 
+#live {
+  color: white;
+}
+
 a:hover, a:visited: {
   color: #d1bec5;
 }
