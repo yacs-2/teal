@@ -1,23 +1,10 @@
 body {
-  background-color: #b0d4d5
-  color: black; 
-}
-body {
   background-color: #A5C9C4;
-    color: black;
-  text-align: left;
+  color: black;
+  text-align: center;
   font-family: Montserrat;
   margin-left: 10%;
   margin-right: 10%;
-}
-
-#bg {
-  width: 100vw;
-  height: 100vh;
-  z-index: -999;
-  position: fixed;
-  top: 0px;
-  left: 0px;
 }
 
 .heading {
@@ -25,7 +12,6 @@ body {
   text-align: center;
   font-size: 300%;
   text-color: black;
-  text-shadow: #C9A5BC 2px 2px;
 }
 
 h2.heading {
@@ -44,18 +30,19 @@ h2.heading {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 600;
-  color: #888;
+  color: #30343F;
 }
 
-a:hover, a:visited: {
-  color: #d1bec5;
+a:hover, a:visited {
+  color: #344192;
+  text-decoration: none;
 }
 
 hr {
   height: 3px;
-  border: 0px;
+  background-color: black;
   background-color: d1bec5;
 }
 
