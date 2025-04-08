@@ -1,1 +1,51 @@
+body{
+  margin:0px;
+}
 
+#content, #album, #info{
+  float:left
+}
+
+#content{
+  border:solid 2px black; 
+  width:50%
+}
+
+#album{
+  border:solid 2px red;
+  width:20%
+}
+
+#info{
+  border:solid 2px blue;
+  max-width: 19%
+}
+
+#player button{
+  float:left;
+}
+
+#player audio{
+  height: 1em;
+}
+
+#tracklist {
+  list-style-type: none;
+}
+
+.track-li {
+  font-size: 100%;
+  font-style: italic;
+}
+
+#player audio::-webkit-media-controls-panel {
+  background-color: rgba(255, 255, 255, 1) 
+}
+
+.track-player {
+  height: 2em;
+}
+
+#album-cover {
+  width: 100%;
+}
