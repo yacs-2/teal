@@ -1,5 +1,10 @@
-body{
-  margin:0px;
+body {
+  background-color: #A5C9C4;
+  color: black;
+  text-align: center;
+  font-family: Montserrat;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #content, #album, #info{
@@ -13,7 +18,8 @@ body{
 
 #album{
   border:solid 2px red;
-  width:20%
+  width:20%;
+  background-color: black;
 }
 
 #info{
@@ -39,7 +45,7 @@ body{
 }
 
 #player audio::-webkit-media-controls-panel {
-  background-color: rgba(255, 255, 255, 1) 
+  background-color: #A5C9C4;
 }
 
 .track-player {
@@ -48,4 +54,26 @@ body{
 
 #album-cover {
   width: 100%;
+}
+
+#info img {
+  max-width: 80%;
+  margin: auto;
+  display: inline-block;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #30343F;
+}
+
+a:hover, a:visited {
+  color: #344192;
+  text-decoration: none;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
 }
