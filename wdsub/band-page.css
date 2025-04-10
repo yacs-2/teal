@@ -11,22 +11,6 @@ body {
   float:left
 }
 
-#content{
-  border:solid 2px black; 
-  width:50%
-}
-
-#album{
-  border:solid 2px red;
-  width:20%;
-  background-color: black;
-}
-
-#info{
-  border:solid 2px blue;
-  max-width: 19%
-}
-
 #player button{
   float:left;
 }
