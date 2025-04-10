@@ -1,3 +1,4 @@
+
 body {
   background-color: #A5C9C4;
   color: black;
@@ -60,4 +61,17 @@ a:hover, a:visited {
 hr {
   height: 2px;
   background-color: black;
+}
+
+#content {
+  width: 50%;
+  margin: 0px 5px 0px;
+}
+
+#album {
+  width: 30%;
+}
+
+#info {
+  max-width: 15%;
 }
