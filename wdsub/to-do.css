@@ -1,1 +1,36 @@
+body {
+  background-color: #A5C9C4;
+  color: black;
+  text-align: center;
+  font-family: Montserrat;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
+#bordered {
+  border-style: solid;
+  border-color: #d3dbec;
+  border-width: 3px;
+  padding: 7px;
+  border-radius: 15px;
+  margin: 9px;
+  background-color: #d3dbec;
+  color: #333333;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #30343F;
+}
+
+a:hover, a:visited {
+  color: #344192;
+  text-decoration: none;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+  background-color: d1bec5;
+}
