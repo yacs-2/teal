@@ -43,10 +43,43 @@ a:hover, a:visited {
 hr {
   height: 3px;
   background-color: black;
-  background-color: d1bec5;
 }
 
 #footer {
   font-size: 150%;
   text-align: center;
+}
+
+#nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  position: relative;
+  background-color: #d3dbec;
+  
+}
+
+#nav-list > li {
+  flex-grow: 1;
+  display: inline-block;
+  width:
+}
+
+#nav-list ul {
+  display: none;
+  background-color: #d3dbec;
+}
+
+#nav-list li:hover {
+  background-color: #a3abbc;
+}
+
+#nav-list li:hover ul {
+  display: block;
+}
+
+#nav-list li ul {
+  list-style-type: none;
+  padding: 0px;
+  position: absolute;
 }
