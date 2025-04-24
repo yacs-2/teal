@@ -51,18 +51,26 @@ hr {
 }
 
 #nav-list {
+  padding: 0px;
   display: flex;
   list-style-type: none;
   justify-content: center;
+  align-content: center;
   position: relative;
   background-color: #d3dbec;
-  
 }
 
 #nav-list > li {
   flex-grow: 1;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+#nav-list li a {
   display: inline-block;
-  width:
+  width: 100%;
 }
 
 #nav-list ul {
@@ -82,4 +90,5 @@ hr {
   list-style-type: none;
   padding: 0px;
   position: absolute;
+  width: 100%;
 }
