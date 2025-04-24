@@ -22,9 +22,8 @@ const INJECTION = '<div id="global-preheader"><h1 class="heading">Jazmine's Webs
         <li><a href="/teal/wdsub/anchors.html">Week 3</a></li>
         <li><a href="/teal/wdsub/poem.html">Week 4</a></li>
         <li><a href="/teal/wdsub/reviews.html">Week 5</a></li>
-        <li><a href="/teal/wdsub/week6.html">Week 6</a></li>
-        <li><a href="/teal/wdsub/band-page.html">Week 7</a></li><li><a href="/teal/wdsub/to-do.html">Week 8</a></li><li><a href="/teal/">Week 9</a></li></ul></li></ul>
-  ';
+        <li><a href="/teal/wdsub/week6.html">Week 6</a></li><li><a href="/teal/wdsub/band-page.html">Week 7</a></li><li><a href="/teal/wdsub/to-do.html">Week 8</a></li><li><a href="/teal/">Week 9</a></li></ul></li></ul></div>
+';
 
 let _div = document.getElementById("gheader");
 
