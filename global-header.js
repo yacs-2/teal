@@ -7,4 +7,4 @@ const INJECTION = '<div id="global-preheader"><h1 class="heading">Jazmine's Webs
 
 let _div = document.getElementById("gheader");
 
-_div.inneHTML = INJECTION;
+_div.innerHTML = INJECTION;
