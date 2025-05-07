@@ -23,6 +23,7 @@ function hideBig(_self) {
 window.addEventListener("keydown", (_key) => {
   if (_key.code == "ArrowRight") increaseIndex();
   else if (_key.code == "ArrowLeft") decreaseIndex();
+  updateBig();
 });
 
 function increaseIndex() {
@@ -36,6 +37,6 @@ function decreaseIndex() {
 }
 
 function updateBig() {
-  const BIG_IMG = document.getElementById("big-img");
-  BIG_IMG.setAttribute("src", photoArr[currentIndex].src)
+  const BIG_IMG = document.getElementById("big-img");  
+  BIG_IMG.setAttribute("src", photoArr[currentIndex].src);
 }
