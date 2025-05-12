@@ -1,1 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.square {
+  float: left;
+  border: solid black 3px;
+  width: 32vw;
+  font-size: 300%;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
 
