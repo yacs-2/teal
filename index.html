@@ -44,6 +44,7 @@
         <li><a href="/teal/wdsub/to-do.html">Week 8</a></li>
         <li><a href="/teal/wdsub/pythag.html">Week 9</a></li>
         <li><a href="/teal/wdsub/ttt.html">Week 10</a></li>
+            <li><a href="/teal/wdsub/time-keeper.html">Week 11</a></li>
           </ul>
          </li>
       </ul>
@@ -51,6 +52,15 @@
         <h1>HOMEPAGE</h1>
       </div>
     </div>
+
+    <script>
+      let urlParams = new URLParams(window.location.search);
+      if (urlParams.has("variable1")) {
+        let username = urlParams.get("variable1");
+        let userspan = document.getElementById("userspan");
+        userspan.innerText = "," + username + ",";
+      }
+    </script>
 
     
   </body>
