@@ -4,7 +4,7 @@
     <title>redirect</title>
     <script>
       let urlParams = new URLSearchParams(window.location.search);
-      let username = URLParams.get("variable1");
+      let username = urlParams.get("variable1");
 
 
       if (username == "Jazmine") {
@@ -14,7 +14,6 @@
         //redirect to home
         window.location.replace("https://yacs-2.github.io/teal/home.html" + "?variable1=" + username);
       }
-      
     </script>
   </head>
   <body>
